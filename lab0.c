@@ -117,6 +117,12 @@ int main() {
 
         printf("\nunknown command, try again\n\n");
     }
+    
+    for (int i = 0; i < n; i++){
+        free(arr[i]);
+    }
 
+    free(arr);
+    
     return 0;
 }
