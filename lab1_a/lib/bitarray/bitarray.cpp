@@ -281,7 +281,7 @@ BitArray BitArray::operator>>(size_t n) const {
 
 }
 
-BitArray& BitArray::set(size_t n, bool val = 1) {
+BitArray& BitArray::set(size_t n, bool val) {
 	if (n >= size or n < 0) {
 		exit(EXIT_FAILURE);
 
