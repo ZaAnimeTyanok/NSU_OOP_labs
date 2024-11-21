@@ -1,3 +1,6 @@
+#ifndef BITARRAY_H
+#define BITARRAY_H
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -127,3 +130,4 @@ BitArray operator|(const BitArray& b1, const BitArray& b2);
 
 BitArray operator^(const BitArray& b1, const BitArray& b2);
 
+#endif
