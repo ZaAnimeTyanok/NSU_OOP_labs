@@ -156,7 +156,7 @@ void BitArray::pop_back() {
 }
 
 
-void BitArray::resize(size_t num_bits, bool value = 0) {
+void BitArray::resize(size_t num_bits, bool value) {
 	std::size_t dif = num_bits - size;
 
 	if (num_bits > size) {
