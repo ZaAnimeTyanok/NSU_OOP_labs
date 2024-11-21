@@ -80,7 +80,7 @@ public:
 
 	void pop_back();
 
-	void resize(size_t num_bits, bool value);
+	void resize(size_t num_bits, bool value = 0);
 
 	void clear();
 
@@ -100,7 +100,7 @@ public:
 
 	BitArray operator>>(size_t n) const;
 
-	BitArray& set(size_t n, bool val);
+	BitArray& set(size_t n, bool val = 1);
 
 	BitArray& reset(size_t n);
 	
